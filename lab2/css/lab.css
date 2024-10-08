@@ -7,3 +7,20 @@
     border: solid 1px #888;
     background-color: #ffffff;
   }
+
+.h1 {
+  color: lightcoral;
+  font-size: 250%;
+}
+
+.p {
+  font-family:'Times New Roman', Times, serif;
+  text-indent: 20px;
+  margin-left: 10px;
+}
+
+#content {
+  background-color: grey;
+  width: 450px;
+  font-size: large;
+}
