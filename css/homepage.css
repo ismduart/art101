@@ -4,3 +4,31 @@
   margin: 10px;
   max-width: 500px;
 }
+
+#content {
+  background-color: white;
+
+}
+
+#minor-section {
+  background-color: white;
+  border: dashed 20px black;
+  padding: 10px;
+
+}
+
+.h2 {
+  font-family:'Times New Roman', Times, serif;
+  font-size: x-large;
+  color: darkgreen;
+}
+
+.p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  color: white;
+}
+
+#links {
+  color:blue;
+}
