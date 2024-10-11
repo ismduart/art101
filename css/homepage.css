@@ -2,7 +2,8 @@
 
 .me-photo {
   margin: 10px;
-  max-width: 500px;
+  max-width: 250px;
+  float: right;
 }
 
 #content {
@@ -30,5 +31,7 @@
 }
 
 #links {
-  color:blue;
+  color:black;
+  font-weight: bold;
+  font-size:larger;
 }
