@@ -1,33 +1,20 @@
 /* this css file will only style the homepage of our site */
 
-.me-photo {
-  margin: 10px;
-  max-width: 250px;
+#my-portrait {
+  max-width: 350px;
   float: right;
+  margin-right: 50px;
+  margin-left: 10px;
 }
 
 #content {
-  background-color: white;
-
+  background-color: rgb(161, 186, 215);
+  border: solid 5px black;
 }
 
-#minor-section {
-  background-color: white;
-  border: dashed 20px black;
-  padding: 10px;
-
-}
-
-.h2 {
-  font-family:'Times New Roman', Times, serif;
-  font-size: x-large;
-  color: darkgreen;
-}
-
-.p {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: medium;
-  color: white;
+#labs {
+  background-color: rgb(161, 186, 215);
+  border: solid 5px black;
 }
 
 #links {
