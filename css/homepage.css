@@ -2,9 +2,14 @@
 
 #my-portrait {
   max-width: 350px;
-  float: right;
-  margin-right: 50px;
-  margin-left: 10px;
+  margin-left: 20px;
+}
+
+img {
+  overflow-clip-margin: content-box;
+    overflow: clip;
+    overflow-x: 50px;
+    overflow-y: 50px;
 }
 
 #content {

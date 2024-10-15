@@ -48,6 +48,7 @@ h3 {
 }
 
 .carousel {
+  max-width: 5000px;
   display: flex;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
@@ -61,4 +62,8 @@ h3 {
 
 img {
   max-width: 250px;
+}
+
+figcaption {
+  display: block;
 }
