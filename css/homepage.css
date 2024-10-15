@@ -28,3 +28,10 @@ img {
   font-weight: bold;
   font-size:larger;
 }
+
+div {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+  overflow: auto;
+}
