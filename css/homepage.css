@@ -1,8 +1,9 @@
 /* this css file will only style the homepage of our site */
 
 #my-portrait {
-  max-width: 150px;
+  max-width: 350px;
   margin-left: 20px;
+  float: right;
 }
 
 img {
