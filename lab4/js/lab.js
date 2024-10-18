@@ -1,6 +1,13 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Rolling Dice
+// An implementation of the game
+// Bella Duarte <ismduart@ucsc.edu>
+// October 2024
+
+
+//Import a library that will randomly generate a number 1-6 
+//Establish the amount of dice being rolled. 
+//Randomize numbers 1-6 per die rolled. 
+//Display results.
 
 // Constants
 

@@ -5,5 +5,15 @@
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
-    background-color: #DDD8C4;
+    background-color: #d2cfc1;
+  }
+
+  body {
+    background-color: rgb(131, 191, 139);
+  }
+
+  h1 {
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
   }
