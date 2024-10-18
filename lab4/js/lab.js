@@ -5,7 +5,11 @@
 
 
 //Import a library that will randomly generate a number 1-6 
+//Accept user input.
 //Establish the amount of dice being rolled. 
+  //Prompt user for amount of dice.
+  //Validate user move.
+//Evaluate possible outcomes.
 //Randomize numbers 1-6 per die rolled. 
 //Display results.
 

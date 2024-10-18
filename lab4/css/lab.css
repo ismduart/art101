@@ -4,16 +4,31 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #d2cfc1;
+    border: solid 2px rgb(0, 0, 0);
+    background-color: #cfc1d2;
   }
 
   body {
-    background-color: rgb(131, 191, 139);
+    background-color: rgb(131, 132, 191);
   }
 
   h1 {
     color: black;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
     text-align: center;
+    letter-spacing: 5px;
+    font-size: 50px;
+  }
+
+  h2 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: oblique;
+  }
+
+  h3, p {
+    color: black;
+    font-family:'Times New Roman', Times, serif;
   }
