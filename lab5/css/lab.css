@@ -1,9 +1,85 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
+body {
+  background-color: rgb(69, 138, 182);
+}
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+h1 {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 50px;
+}
+
+h3 {
+  color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+}
+
+p {
+  color: black;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+#car {
+  float: right;
+  max-width: 1000px;
+}
+
+.output {
+  border: solid black 2px;
+  width: 200px;
+  padding: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+
+/****************/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  font-size: 35px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
+}
