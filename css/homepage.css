@@ -1,37 +1,92 @@
-/* this css file will only style the homepage of our site */
-
-#my-portrait {
-  max-width: 350px;
-  margin-left: 20px;
-  float: right;
+* {
+  box-sizing: border-box;
 }
 
-img {
-  overflow-clip-margin: content-box;
-    overflow: clip;
-    overflow-x: 50px;
-    overflow-y: 50px;
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: rgb(255, 247, 236);
 }
 
-#content {
-  background-color: rgb(161, 186, 215);
-  border: solid 5px black;
+/* Header/Blog Title */
+.header {
+  padding: 15px;
+  font-size: 45px;
+  text-align: center;
+  background: #2d719f;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  letter-spacing: 10px;
+  border: solid black 3px;
 }
 
-#labs {
-  background-color: rgb(161, 186, 215);
-  border: solid 5px black;
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 40%;
 }
 
-#links {
-  color:black;
-  font-weight: bold;
-  font-size:larger;
+.middleColumn {
+  float: left;
+  width: 33%;
+  padding-left: 20px;
 }
 
-div {
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: gray;
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 27%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: rgb(177, 196, 218);
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #5b9dc2;
+  padding: 20px;
+  margin-top: 20px;
+  border: solid black 3px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #22577a;
+  margin-top: 20px;
+  border: solid black 3px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+div.scroll-container {
+  background-color: #333;
   overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
 }

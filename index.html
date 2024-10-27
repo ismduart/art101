@@ -1,58 +1,63 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<!-- This title is used for tabs and bookmarks -->
-	<title>Bella's Homepage</title>
+<div class="header">
+    <h2>BELLA'S HOMEPAGE</h2>
+  </div>
+  
+  <link rel="stylesheet" type="text/css" href="./css/homepage.css">
 
-	<!-- Use UTF character set, a good idea with any webpage -->
-	<meta charset="UTF-8" />
-	<!-- Set viewport so page remains consistently scaled w narrow devices -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <div class="row">
+    <div class="leftcolumn">
+        <div class="card">
+            <h2>Oh hey... Welcome</h2>
+            <img id="my-portrait" src="./img/me1.jpg" style="max-width:510px;">
+        </div>
+    </div>
 
-	<!-- Include a sitewide CSS file for consistent styling across the site -->
-	<link rel="stylesheet" type="text/css" href="css/site.css">
-	<!-- Lab-specifc CSS file for any special styling of this particular page -->
-	<link rel="stylesheet" type="text/css" href="css/homepage.css">
-	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+    <div class="middleColumn">
+        <div class="card">
+            <h2>My Work Thus Far</h2>
+            <div class="fakeimg" style="height:200px;">
+                <ul>
+                    <li><a href="lab2/index.html">Lab 2 - HTML & CSS Starter</a></li>
+                    <li><a href="lab3/index.html">Lab 3 - File Structure & File Transfer</a></li>
+                    <li><a href="lab4/index.html">Lab 4 - Pseudocoding & Problem Solving</a></li>
+				    <li><a href="lab5/index.html">Lab 5 - Data Types & Variables</a></li>
+				    <li><a href="lab6/index.html">Lab 6 - Arrays & Objects</a></li>
+				    <li><a href="lab7/index.html">Lab 7 - Functions</a></li>
+                    <li><a href="lab8/index.html">Lab 8 - </a></li>
+                </ul>
+            </div>
+        </div>
 
-	<!-- <script type="text/javascript" src="./js/lab.js" DEFER></script> -->
-</head>
-<body>
-	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
-	<main id="content">
-		<section>
-			<h1>BELLA'S HOMEPAGE</h1>
-					<!-- Note that all filenames use lowercase and no spaces -->
-					<img id="my-portrait" src="./img/me1.jpg">
-					<h2>ABOUT ME</h2>
-					<h3>Hi! I'm a 4th year studying Network & Digital Technology, 
-						which can range from simple IT work to engineering. I'm taking this course
-						because the concept is interesting and none of my core classes teach HTML/CSS 
-						so I thought it would be perfect to know more about building websites.</h3> 
-					<h3>You can always catch me at work, at a concert, or hanging out with family!</h3>
-		<nav id="links">
-			<!-- Put links to labs here. -->
-			<br>
-			<br>
-			<h2>
-				LABS
-			</h2>
-			<ul>
-				<li><a href="lab2/index.html">Lab 2 - HTML & CSS Starter</a></li>
-				<li><a href="lab3/index.html">Lab 3 - File Structure & File Transfer</a></li>
-				<li><a href="lab4/index.html">Lab 4 - Pseudocoding & Problem Solving</a></li>
-				<li><a href="lab5/index.html">Lab 5 - Data Types & Variables</a></li>
-				<li><a href="lab6/index.html">Lab 6 - Arrays & Objects</a></li>
-				<li><a href="lab7/index.html">Lab 7 - Functions</a></li>
-			</ul>
+        <div class="card">
+            <h2>My Favorite Shows</h2>
+            <div class="scroll-container">
+                <img src="img/911.jpg" style="max-width:250px;">
+                <img src="./img/supernatural.jpg" style="max-width:250px;">
+                <img src="./img/theoffice.jpg" style="max-width:250px;">
+                <img src="./img/criminal minds.avif" style="max-width:250px;">
+                <!-- <img src="./img/matilda.jpg" style="max-width:250px;"> -->
+            </div>
+        </div>
 
-			<br>
-			<br>
-
-			
-
-		</nav>
-		</section>
-	</main>
-</body>
-</html>
+    </div>
+    <div class="rightcolumn">
+      <div class="card">
+        <h2>Fun Facts</h2>
+        <div class="fakeimg">
+            <li>4th Year NDT Major</li>
+            <li>I've worked for UPS for 4 years</li>
+            <li>I went to school with a Netflix actress</li>
+            <li>You can spot me in one of Lizzo's movies</li>
+            <li>I've been to 26 concerts</li>
+            <li>I've met Billie Eilish</li>
+        </div>
+      </div>
+      <div>
+        <div class="card"> 
+            <h2>My Dog: Oakley</h2>
+            <img id="images" src="./img/oakley.jpg" style="max-width:315px;">
+                </div>
+      </div>
+    </div>
+  </div>
+  
