@@ -1,0 +1,32 @@
+body {
+    background-color: #22577a;
+}
+
+.minor-section {
+    background-color: rgb(158, 180, 229);
+    border: solid black 2px;
+    padding: 5px;
+    margin: 5px;
+}
+
+h1 {
+    margin-top: 25px;
+    color: rgb(69, 11, 11);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 50px;
+}
+
+h2, h3 {
+    color: rgb(100, 22, 22);
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+script {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    color:rgb(69, 11, 11)
+}
