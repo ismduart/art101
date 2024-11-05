@@ -16,6 +16,7 @@ $("#button-challenge").click(function(){
 
 });
 
+// i used two different methods of implementing the buttons
 
 // add button to problem section
 $("#problems").append("<button id='button-problems'>Make Special</button>");
