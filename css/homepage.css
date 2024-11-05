@@ -8,6 +8,16 @@ body {
   background: rgb(255, 247, 236);
 }
 
+.leftcolumn img {
+  object-fit: cover;
+  max-width: 425px;
+}
+
+.rightColumn img {
+  object-fit: cover;
+  max-width: 255px;
+}
+
 /* Header/Blog Title */
 .header {
   padding: 15px;
@@ -35,6 +45,12 @@ body {
 
 /* Right column */
 .rightcolumn {
+  float: left;
+  width: 27%;
+  padding-left: 20px;
+}
+
+.rightColumn {
   float: left;
   width: 27%;
   padding-left: 20px;

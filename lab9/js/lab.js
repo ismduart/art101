@@ -12,8 +12,10 @@
 $("#challenge").append("<button id='button-challenge'>Make Special</button>");
 // add a click listener to the challenge button
 $("#button-challenge").click(function(){
-$("#challenge").toggleClass("special");
+    $(this).parent().toggleClass("special");
+
 });
+
 
 // add button to problem section
 $("#problems").append("<button id='button-problems'>Make Special</button>");
