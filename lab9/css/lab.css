@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(24, 58, 31);
+}
+
+.special {
+    background-color: lavender;
+    border: dotted 50px red;
+    color: pink;
+    font-weight: bold;
+}
+
+.sectionbox {
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 50px;
+    color:rgb(151, 246, 163);
+}
+
+#challenge, #problems, #results {
+    border: rgb(93, 186, 94) solid 15px;
+    width: 45%;
+    background-color: rgba(88, 169, 99, 0.728);
+    padding: 10px;
+    float: left;
+    margin: 5px;
+}
+
+h2, p {
+    color:rgb(151, 246, 163);
+}
