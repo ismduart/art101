@@ -1,5 +1,5 @@
 body {
-    background-color: #810808;
+    background-color: rgb(51, 152, 96);
 }
 
 h1 {
@@ -8,25 +8,13 @@ h1 {
     letter-spacing: 10px;
     text-align: center;
     font-size: 50px;
-    color: rgb(255, 255, 255);
     margin-top: 15px;
 }
 
-h2, p {
-    color: white;
-}
-
 #content {
-    border: black solid 2px;
-    padding: 5px;
-    background-color: #ff7a7a;
-}
-
-#houseResults {
-    border: black solid 3px;
-    padding: 10px;
-    background-color: #884e4e;
-    color: white;
+    border: black solid 5px;
+    padding: 15px;
+    /* background-color: rgb(110, 123, 224); */
 }
 
 #minor-section {
@@ -36,6 +24,6 @@ h2, p {
 }
 
 #input {
-    padding: 15px;
+    padding: 10px;
     margin: 5px;
 }
