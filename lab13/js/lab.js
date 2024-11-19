@@ -4,7 +4,6 @@
  */
 
 function fizzBuzz() {
-    console.log("Yes, my function is running.");
 
     for (let i=1; i<=200; i++) {
       let str = '';
