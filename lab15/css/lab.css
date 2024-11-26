@@ -1,0 +1,30 @@
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+h2 {
+    font-family:'Times New Roman', Times, serif;
+    color:#375789;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+body {
+    background-color: rgb(220, 191, 196);
+}
+
+#content {
+    border: black solid 2px;
+    padding: 5px;
+    background-color: rgb(163, 190, 214);
+}
+
+#minor-section {
+    border-bottom: black solid 2px;
+    margin-bottom: 5px;
+}
